@@ -61,3 +61,7 @@ function isSharingAvailable() {
   }
   return true;
 }
+
+export const unstable_settings = {
+  initialRouteName: "index",
+};
